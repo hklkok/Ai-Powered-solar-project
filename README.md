@@ -727,19 +727,19 @@ Returns a CSV file download of the last `days` days of sensor data.
 ```
 iot-environmental-monitor/
 │
-├── README.md                   ← You are here
+├── README.md                  
 ├── .gitignore
 ├── requirements.txt
 │
-├── server.py                   ← Flask backend
-├── dashboard.html              ← Complete frontend (single file)
+├── server.py                   
+├── dashboard.html              
 │
 ├── arduino/
-│   └── environmental_monitor/
-│       └── environmental_monitor.ino
+│    └── aurdino_code.ino
+│ 
 │
 ├── data/
-│   └── .gitkeep               ← sensor_data.db goes here (gitignored)
+│   └── environmental_data.DP
 │
 └── docs/
     ├── images/
